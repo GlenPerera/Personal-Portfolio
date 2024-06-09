@@ -180,11 +180,33 @@ span {
     padding-right: 50%; /* You can adjust this value as needed */
   }
 
+  .navbar.show {
+    display: flex; /* Show the navbar when the 'show' class is added */
+  }
+
   #menu-icon {
     position: absolute;
-    right: 40px; /* Adjust the value as needed */
+    right: 20px; /* Adjust the value as needed */
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .scroll-to-top {
+    margin-right: 8px;
+  }
+
+  .navbar.show {
+    display: flex; /* Show the navbar when the 'show' class is added */
+    cursor: pointer;
+  }
+
+  .home-img img {
+    width: 200px; /* Adjust the percentage as needed */
+    height: 200px;
+  }
+
+  .home-img {
+    margin-top: -20px;
   }
 }
 
@@ -195,9 +217,27 @@ span {
   }
   #menu-icon {
     position: absolute;
-    right: 40px; /* Adjust the value as needed */
+    right: 20px; /* Adjust the value as needed */
     top: 50%;
     transform: translateY(-50%);
+  }
+
+  .scroll-to-top {
+    margin-right: 8px;
+  }
+
+  .navbar.show {
+    display: flex; /* Show the navbar when the 'show' class is added */
+    cursor: pointer;
+  }
+
+  .home-img img {
+    width: 200px; /* Adjust the percentage as needed */
+    height: 200px;
+  }
+
+  .home-img {
+    margin-top: -20px;
   }
 }
 
@@ -210,6 +250,8 @@ span {
   .home-img {
     order: -1; /* Move image above the text */
     animation: none;
+
+    margin-top: -80px;
   }
 
   .header {
@@ -235,12 +277,18 @@ span {
   .navbar.show {
     display: flex;
   }
+
   .navbar a:hover {
     color: rgb(103, 90, 74);
   }
 
   #menu-icon {
     display: block;
+    cursor: pointer;
+  }
+
+  .scroll-to-top {
+    margin-right: 8px;
   }
 }
 
