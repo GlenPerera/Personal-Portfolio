@@ -173,6 +173,14 @@ span {
   color: rgb(103, 90, 74);
 }
 
+/* Add this in your style.css */
+@media (max-width: 991.98px) {
+  .navbar {
+    /* Adjust the padding to position the menu icon */
+    padding-right: 50%; /* You can adjust this value as needed */
+  }
+}
+
 @media (max-width: 768px) {
   .home {
     flex-direction: column; /* Stack items vertically on smaller screens */
