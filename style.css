@@ -178,6 +178,7 @@ span {
   .navbar {
     /* Adjust the padding to position the menu icon */
     padding-right: 50%; /* You can adjust this value as needed */
+    display: none;
   }
 
   .navbar.show {

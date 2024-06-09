@@ -81,4 +81,3 @@ document.getElementById("scrollToTop").addEventListener("click", function () {
     behavior: "smooth", // Smooth scrolling
   });
 });
-
