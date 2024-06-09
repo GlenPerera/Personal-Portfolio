@@ -39,3 +39,45 @@ function smoothScroll(target, duration) {
 
   requestAnimationFrame(animation);
 }
+
+const contactForm = document.getElementById("contactForm");
+
+contactForm.addEventListener("submit", (event) => {
+  event.preventDefault();
+
+  // Create a success message element
+  const successMessage = document.createElement("p");
+  successMessage.classList.add("success-message"); // Add a CSS class for styling
+  successMessage.textContent = "Your message has been sent!";
+
+  // Get the form's parent element (usually the section)
+  const formContainer = contactForm.parentElement;
+
+  // Insert the success message after the form
+  formContainer.insertBefore(successMessage, contactForm.nextSibling);
+
+  // Optionally, clear the form after a short delay
+  setTimeout(() => {
+    contactForm.reset(); // Clear form fields
+    successMessage.remove(); // Remove the success message after a while
+  }, 3000); // Adjust delay in milliseconds (3 seconds here)
+});
+
+window.addEventListener("scroll", function () {
+  var scrollToTopButton = document.getElementById("scrollToTop");
+
+  // Show scroll-to-top button when user scrolls down
+  if (window.scrollY > 100) {
+    scrollToTopButton.style.display = "block";
+  } else {
+    scrollToTopButton.style.display = "none";
+  }
+});
+
+// Scroll to top when the button is clicked
+document.getElementById("scrollToTop").addEventListener("click", function () {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Smooth scrolling
+  });
+});

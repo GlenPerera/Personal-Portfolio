@@ -355,3 +355,17 @@ span {
   padding: 15px 30px;
   font-size: 16px;
 }
+
+.success-message {
+  color: white; /* Change color as desired */
+  font-weight: bold;
+  padding: 18px;
+
+  border: 1px solid blanchedalmond; /* Add borders for better visibility */
+  border-radius: 5px;
+  margin-top: 30px; /* Add spacing between form and message */
+}
+
+.scroll-to-top{
+  
+}
