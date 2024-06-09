@@ -179,6 +179,26 @@ span {
     /* Adjust the padding to position the menu icon */
     padding-right: 50%; /* You can adjust this value as needed */
   }
+
+  #menu-icon {
+    position: absolute;
+    right: 15px; /* Adjust the value as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* Add this in your style.css */
+@media (max-width: 767.98px) {
+  .navbar {
+    padding-right: 15px; /* Adjust padding if needed */
+  }
+  #menu-icon {
+    position: absolute;
+    right: 15px; /* Adjust the value as needed */
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }
 
 @media (max-width: 768px) {
