@@ -182,7 +182,7 @@ span {
 
   #menu-icon {
     position: absolute;
-    right: 15px; /* Adjust the value as needed */
+    right: 40px; /* Adjust the value as needed */
     top: 50%;
     transform: translateY(-50%);
   }
@@ -195,7 +195,7 @@ span {
   }
   #menu-icon {
     position: absolute;
-    right: 15px; /* Adjust the value as needed */
+    right: 40px; /* Adjust the value as needed */
     top: 50%;
     transform: translateY(-50%);
   }
