@@ -366,6 +366,24 @@ span {
   margin-top: 30px; /* Add spacing between form and message */
 }
 
-.scroll-to-top{
-  
+.scroll-to-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.scroll-to-top :hover {
+  color: rgb(178, 176, 176);
 }
